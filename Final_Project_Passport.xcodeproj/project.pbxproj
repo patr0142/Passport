@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		04130615257DDB0B00234F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130614257DDB0B00234F15 /* AppDelegate.swift */; };
 		04130617257DDB0B00234F15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130616257DDB0B00234F15 /* SceneDelegate.swift */; };
-		04130619257DDB0B00234F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130618257DDB0B00234F15 /* ViewController.swift */; };
 		0413061C257DDB0B00234F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413061A257DDB0B00234F15 /* Main.storyboard */; };
 		0413061E257DDB0C00234F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413061D257DDB0C00234F15 /* Assets.xcassets */; };
 		04130621257DDB0C00234F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413061F257DDB0C00234F15 /* LaunchScreen.storyboard */; };
 		0413062C257DDB0C00234F15 /* Final_Project_PassportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413062B257DDB0C00234F15 /* Final_Project_PassportTests.swift */; };
 		04130637257DDB0C00234F15 /* Final_Project_PassportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130636257DDB0C00234F15 /* Final_Project_PassportUITests.swift */; };
+		04130645257DDC9800234F15 /* PassportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130644257DDC9800234F15 /* PassportTableViewController.swift */; };
+		04130649257DDE1C00234F15 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130648257DDE1C00234F15 /* AddViewController.swift */; };
+		0413064B257DDE7200234F15 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413064A257DDE7200234F15 /* InfoViewController.swift */; };
+		0413064D257DE1D500234F15 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413064C257DE1D500234F15 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		04130611257DDB0B00234F15 /* Final_Project_Passport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_Project_Passport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04130614257DDB0B00234F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04130616257DDB0B00234F15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04130618257DDB0B00234F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0413061B257DDB0B00234F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0413061D257DDB0C00234F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04130620257DDB0C00234F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		04130632257DDB0C00234F15 /* Final_Project_PassportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_Project_PassportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04130636257DDB0C00234F15 /* Final_Project_PassportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_PassportUITests.swift; sourceTree = "<group>"; };
 		04130638257DDB0C00234F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04130644257DDC9800234F15 /* PassportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportTableViewController.swift; sourceTree = "<group>"; };
+		04130648257DDE1C00234F15 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0413064A257DDE7200234F15 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0413064C257DE1D500234F15 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				04130614257DDB0B00234F15 /* AppDelegate.swift */,
 				04130616257DDB0B00234F15 /* SceneDelegate.swift */,
-				04130618257DDB0B00234F15 /* ViewController.swift */,
 				0413061A257DDB0B00234F15 /* Main.storyboard */,
 				0413061D257DDB0C00234F15 /* Assets.xcassets */,
 				0413061F257DDB0C00234F15 /* LaunchScreen.storyboard */,
 				04130622257DDB0C00234F15 /* Info.plist */,
+				0413064C257DE1D500234F15 /* SplashViewController.swift */,
+				04130644257DDC9800234F15 /* PassportTableViewController.swift */,
+				04130648257DDE1C00234F15 /* AddViewController.swift */,
+				0413064A257DDE7200234F15 /* InfoViewController.swift */,
 			);
 			path = Final_Project_Passport;
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04130619257DDB0B00234F15 /* ViewController.swift in Sources */,
+				04130645257DDC9800234F15 /* PassportTableViewController.swift in Sources */,
 				04130615257DDB0B00234F15 /* AppDelegate.swift in Sources */,
+				04130649257DDE1C00234F15 /* AddViewController.swift in Sources */,
+				0413064D257DE1D500234F15 /* SplashViewController.swift in Sources */,
 				04130617257DDB0B00234F15 /* SceneDelegate.swift in Sources */,
+				0413064B257DDE7200234F15 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
